@@ -1,3 +1,126 @@
-img {
-    width: 300px;
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  line-height: 1.5;
+  padding-bottom: 60px;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+.card {
+  background-color: rgb(247.35, 247.35, 247.35);
+  border: 1px solid rgb(189.75, 180.0833333333, 242.9166666667);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  width: 300px;
+}
+.card h2 {
+  font-size: 1.5em;
+  color: #17004d;
+  margin-bottom: 8px;
+}
+.card p {
+  font-size: 1em;
+  color: black;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+.info-card {
+  background-color: rgb(247.35, 247.35, 247.35);
+  border: 1px solid rgb(189.75, 180.0833333333, 242.9166666667);
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px auto;
+  width: 60%;
+}
+.info-card h2 {
+  font-size: 30px;
+  color: #17004d;
+  margin-bottom: 8px;
+  margin-left: 5px;
+}
+.info-card p {
+  font-size: 20px;
+  color: black;
+  margin: 5px;
+}
+.info-card img {
+  width: 60%;
+  height: auto;
+  margin: 0 auto;
+  border-radius: 4px;
+  margin-bottom: 12px;
+}
+
+header {
+  padding: 15px;
+  background-color: #e4e0fa;
+  border-bottom: 1px solid rgb(189.75, 180.0833333333, 242.9166666667);
+}
+header h1 {
+  text-align: center;
+  font-size: 40px;
+}
+header nav {
+  padding: 10px;
+  text-align: center;
+}
+header nav li {
+  display: inline;
+}
+header nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #002679;
+  font-weight: bold;
+}
+header nav a:hover {
+  color: rgb(0, 13.9752066116, 44.5);
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #e4e0fa;
+  color: #17004d;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  border-top: 1px solid rgb(189.75, 180.0833333333, 242.9166666667);
+}
+
+.flex {
+  display: flex;
+  padding: 10px;
+  height: 30%;
+  width: 80%;
+  margin: 10px auto;
+}
+.flex img {
+  height: auto;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #17004d;
+}
+
+/*# sourceMappingURL=styles.css.map */

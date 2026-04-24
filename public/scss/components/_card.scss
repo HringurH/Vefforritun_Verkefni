@@ -1,0 +1,28 @@
+@use "../variables" as *;
+
+.card {
+    background-color: darken($background-color, 3%);
+    border: 1px solid darken($primary-color, 10%);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+
+    h2 {
+        font-size: 1.5em;
+        color: $text-color;
+        margin-bottom: 8px;
+    }
+
+    p {
+        font-size: 1em;
+        color: darken($text-color, 20%);
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 4px;
+        margin-bottom: 12px;
+    }
+}

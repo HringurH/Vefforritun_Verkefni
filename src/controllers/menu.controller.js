@@ -1,5 +1,5 @@
 const getHomePage = (req, res) => {
-    res.render('index', {title: 'Matseðill'});
+    res.render('index', {title: 'Matseðill FB'});
 };
 
 module.exports = {

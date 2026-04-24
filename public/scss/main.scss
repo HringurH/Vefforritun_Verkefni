@@ -1,0 +1,13 @@
+@use 'variables' as *;
+@use 'base/reset';
+@use 'components/card';
+@use 'components/info_card';
+@use 'components/header';
+@use 'components/footer';
+@use 'components/flex';
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: $background-color;
+    color: $text-color;
+}

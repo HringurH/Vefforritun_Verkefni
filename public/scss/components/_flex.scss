@@ -1,0 +1,14 @@
+@use '../variables' as *;
+
+.flex {
+    display: flex;
+    padding: 10px;
+    height: 30%;
+    width: 80%;
+    margin: 10px auto;
+
+    img {
+        height: auto;
+        width: 100%;
+    }
+}

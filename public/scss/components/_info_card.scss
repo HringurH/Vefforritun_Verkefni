@@ -1,0 +1,31 @@
+@use "../variables" as *;
+
+.info-card {
+    background-color: darken($background-color, 3%);
+    border: 1px solid darken($primary-color, 10%);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px auto;
+    width: 60%;
+
+    h2 {
+        font-size: 30px;
+        color: $text-color;
+        margin-bottom: 8px;
+        margin-left: 5px;
+    }
+
+    p {
+        font-size: 20px;
+        color: darken($text-color, 20%);
+        margin: 5px;
+    }
+
+    img {
+        width: 60%;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 4px;
+        margin-bottom: 12px;
+    }
+}
